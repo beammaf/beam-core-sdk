@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name              = 'BeamCoreSdk'
+    s.name              = 'BeamCore'
     s.version           = '0.0.1'
     s.summary           = 'Core SDK Provided by Beam UAE'
     s.homepage          = 'http://beamuae.app/'
