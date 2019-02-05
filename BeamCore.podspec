@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.author            = { 'Name' => 'developer@beamuae.app' }
     s.license           = { :type => 'MIT', :file => 'LICENSE' }
 
-    s.platform          = :its
+    s.platform          = :ios
     s.source            = { :git => 'https://github.com/beammaf/beam-core-sdk',:branch => 'master'}
 
     s.ios.deployment_target = '11.0'
