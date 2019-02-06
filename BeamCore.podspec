@@ -3,6 +3,14 @@ Pod::Spec.new do |s|
     s.version           = '1.0.1'
     s.summary           = 'Core SDK Provided by Beam UAE'
     s.homepage          = 'http://beamuae.app/'
+    s.dependency 'Moya/ReactiveSwift', '~> 12.0'
+    s.dependency 'Moya/RxSwift', '~> 12.0'
+    s.dependency 'Stripe'
+    s.dependency 'RxCocoa'
+    s.dependency 'MBProgressHUD', '~> 1.1.0'
+    s.dependency 'SwiftyRSA'
+    s.dependency 'RxBlocking'
+
 
     s.author            = { 'Name' => 'developer@beamuae.app' }
     s.license           = { :type => 'MIT', :file => 'LICENSE' }
