@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
     s.source            = { :git => 'https://github.com/beammaf/beam-core-sdk',:branch => 'master'}
 
     s.ios.deployment_target = '11.0'
-    s.ios.vendored_frameworks = 'Alamofire.framework','Moya.framework','ReactiveMoya.framework','Result.framework','RxAtomic.framework','RxCocoa.framework','RxMoya.framework','RxSwift.framework'
+    s.ios.vendored_frameworks = 'Alamofire.framework','Moya.framework','ReactiveMoya.framework','Result.framework','RxAtomic.framework','RxCocoa.framework','RxMoya.framework','RxSwift.framework','ReactiveSwift.framework'
     s.requires_arc = true
 end
